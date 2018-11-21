@@ -1,0 +1,127 @@
+body {
+  font-family: "Verdana";
+  margin: 0px;
+}
+
+h1 {
+  font-size: 12px;
+  color: #ffffff;
+}
+.hotel-details {
+  background-image: url("./images/background.png");
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+.hotel-image {
+  padding: 0px;
+  border: solid;
+  border-color: white;
+  width: 250px;
+}
+/*img {*/
+  /*border-color: #ffffff;*/
+  /*border-style: "solid";*/
+  /*width: 25%;*/
+  /*height: 25%;*/
+/*}*/
+
+address {
+  font-size: 10px;
+  color: cadetblue;
+  line-height: 15px;
+  font-style: normal;
+}
+
+a {
+  font-size: 10px;
+}
+a:link {
+  color:  white;
+}
+a:visited {
+  color: white;
+}
+
+.property-details {
+  padding: 5px 15px;
+
+  /*margin-top: 10px;*/
+  width: 250px;
+}
+.property-details ul{display:block;background:#fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+.property-details ul li{padding:10px 3px;border-top:1px solid #adadad;}
+.property-details ul li:first-child{border:0;}
+.property-details ul li span{color:black;float:right;}
+
+.header {
+  background-color: #000000;
+  color: white;
+  font-family: Verdana;
+}
+
+.back-btn, .title {
+  color: white;
+  display: inline;
+}
+
+.logo-container {
+  float: right;
+
+}
+
+.logo {
+  position: absolute;
+  /*-webkit-clip-path: inset(30px 10px 30px 10px);*/
+  clip: rect(0px, 200px, 200px, 0px);
+}
+/*.icon {*/
+  /*text-align: right;*/
+/*}*/
+
+/*.details-list {*/
+  /*border: 1px;*/
+  /*border-style;*/
+  /*border-color: grey;*/
+  /*color: darkgray;*/
+  /*display: block;*/
+  /*width: 250px;*/
+  /*line-height: 1.5em;*/
+  /*font-size: 18px;*/
+/*}*/
+
+/*!*tr:nth-child(odd) {*!*/
+  /*!*background-color: #f2f2f2;*!*/
+/*!*}*!*/
+
+/*table tr:first-child {*/
+  /*background: linear-gradient(to bottom, white, lightskyblue);*/
+/*}*/
+
+/*table.tableGroup td, table.tableGroup th {*/
+  /*width: 250px;*/
+  /*border: none;*/
+  /*border-spacing: 0px;*/
+  /*padding: 0px;*/
+/*}*/
+
+
+/*@media only screen and (max-width:800px) {*/
+  /*body {*/
+    /*background-repeat: repeat-x;*/
+  /*}*/
+/*}*/
+
+/*@media screen and (max-width:425px) {*/
+
+/*}*/
+
